@@ -47,7 +47,7 @@ public class SecurityConfig {
 				cfg.setAllowedOrigins(listoforigin);
 				cfg.setAllowedMethods(listofmethods);
 				cfg.setAllowedHeaders(listofheaders);
-				cfg.setAllowCredentials(true);
+			//	cfg.setAllowCredentials(true);
 				return cfg;
 			}
 		}));
